@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Pigeon Hole Sort</title>
+    <meta charset="utf-8">
+    <script src="pigeonholeSort.js"></script>
+    <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
+    
+    <meta name = "viewport" content="width = device-width",initial-scale = 1.0>
+
+</head>
+<link href= "icon.jpg" rel="icon"type="image/ico">
+
+<link rel="stylesheet" href="Index.css">
+    <body>
+        <div class="outer-container">
+            <h1 class="title"><br>Pigeon Hole Sort</h1>
+            <div class='content'>
+            <p>Pigeonhole sorting is a sorting algorithm that is suitable for sorting lists of elements where the number of elements and the number of possible key values are approximately the same.<br> 
+It requires O(n + Range) time where n is number of elements in input array and ‘Range’ is number of possible values in array. <br>
+<b>Working of Algorithm :</b> <br>
+ 
+
+1)Find minimum and maximum values in array. Let the minimum and maximum values be ‘min’ and ‘max’ respectively. Also find range as ‘max-min+1’. <br>
+ 
+2)Set up an array of initially empty “pigeonholes” the same size as of the range.<br>
+3)Visit each element of the array and then put each element in its pigeonhole. An element arr[i] is put in hole at index arr[i] – min.<br>
+4)Start the loop all over the pigeonhole array in order and put the elements from non- empty holes back into the original array.<br></p>
+            
+            </div>
+            <div class='button-container'>
+                <button id='next-button' class='next-button' onclick="redirect('Flow Chart View.html')">Click Here For FlowChart</button>
+            </div>
+            
+            
+        </div>
+    
+    </body>
+</html>

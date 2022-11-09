@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>process</title>
+    <meta charset="utf-8">
+    <script src="pigeonholeSort.js"></script>
+    <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
+    <meta name = "viewport" content="width = device-width",initial-scale = 1.0>
+
+</head>
+<link href= "icon.jpg" rel="icon"type="image/ico">
+<i class="fas fa-cat"></i>
+
+<link rel="stylesheet" href="pigeonholesortalgo.css">
+    <body>
+        <div class="wrapper">
+          <div class="input-container" id='input-container'>
+              
+            <label for="number-input">Enter Numerical Values:</label>
+                <input type="text" id="number-input" placeholder="Enter Numbers..." name="number-input"  class='number-input-field'> 
+              
+            <button id='submit-button' class='submit-button' onclick="changeLabel()">Submit</button>
+            <button id='sort-button' class='sort-button' onclick="sort()">Sort</button>
+              <button id='clear-button' class='clear-button' onclick="clearContent()">Clear</button>
+
+            
+        </div>
+            
+            <div class='input-label-container' id='input-label-container'>
+                <label for="input-label" id='input-label'>Unsorted Numbers:</label>
+                
+            </div>
+            
+            <div class='sorted-label-container' id='sorted-label-container'>
+                <label for="sorted-label" id='sorted-label'></label>
+                
+            </div>
+            <div class='button-container'>
+                <button id='next-button' class='next-button' onclick="redirect('Thank You.html')">The End</button>
+            </div>   
+        </div>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #e6e2d3;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   
+    
+}
+body,html
+{
+    height:100%;
+    width: 100%;
+}
+.outer-container
+{
+    width: 90%;
+    height:90%;
+    box-shadow: 2px 2px 12px rgba(1,1.5,0.5,1.2);
+    position: relative;
+    left:5%;
+    top: 4%;
+    border-radius: 1%;
+    background-color:#c4b7a6;
+    color: black;
+    font-size: 20px;   
+}
+.outer-container .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: black;
+    
+}
+
+.outer-container .content{
+    padding: 20px;
+    line-height: 1.7;
+}
+.outer-container .button-container{
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outer-container .button-container .next-button{
+  
+    
+    background-color: #c1946a;
+    font-weight: 200;
+    font-style:bold;
+    font-size: 30px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    
+    
+    
+}
+.outer-container .button-container .next-button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    margin-top: auto;
+}
+.image-container{
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+img{
+    width: 600px;
+    height: 500px;
+     margin:2px;
+    
+    
+}
+.video{
+    width: 90%;
+    height:90%;
+    box-shadow: 2px 2px 12px rgba(1,1.5,0.5,1.2);
+    position: relative;
+    left:5%;
+    top: 4%;
+    border-radius: 1%;
+    background-color:#c4b7a6;
+    ;
+    color: black;
+    /* font-size: 20px;    */
+}
+.video .button-container{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video .button-container .next-button{
+
+    background-color: #c1946a;
+    font-weight: 200;
+    font-style:bold;
+    font-size: 30px;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+}   
+.video .button-container .next-button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    margin-top: auto;
+}
